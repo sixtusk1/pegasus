@@ -1,0 +1,301 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 476,
+            "type": "VEC3",
+            "max": [
+                0.4000000059604645,
+                0.5,
+                0.5
+            ],
+            "min": [
+                0.0,
+                -0.5,
+                -0.5
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 476,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1704,
+            "type": "SCALAR",
+            "max": [
+                475
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1430,
+            "type": "VEC3",
+            "max": [
+                1.225000023841858,
+                1.5499999523162842,
+                1.225000023841858
+            ],
+            "min": [
+                -1.225000023841858,
+                0.0,
+                -1.225000023841858
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1430,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 5124,
+            "type": "SCALAR",
+            "max": [
+                1429
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 73056,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 5712,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5712,
+            "byteLength": 5712,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 11424,
+            "byteLength": 6816,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 18240,
+            "byteLength": 17160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 35400,
+            "byteLength": 17160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 52560,
+            "byteLength": 20496,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Aluminum - Polished",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9607843160629273,
+                    0.9607843160629273,
+                    0.9647058844566345,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.9717157483100891
+            }
+        },
+        {
+            "name": "Aluminum - Satin",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9607843160629273,
+                    0.9607843160629273,
+                    0.9647058844566345,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.9717157483100891
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Body1",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Body2",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 3,
+                        "NORMAL": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Rad v49",
+            "children": [
+                2,
+                5
+            ]
+        },
+        {
+            "name": "Kugellager Platzhalter v1:1",
+            "matrix": [
+                -4.371138828673793e-8,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                -4.371138828673793e-8,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                7.5,
+                0.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "Kugellager Platzhalter v1",
+            "children": [
+                4
+            ]
+        },
+        {
+            "name": "Body1",
+            "matrix": [
+                10.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "mesh": 0
+        },
+        {
+            "name": "Body2",
+            "matrix": [
+                10.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "mesh": 1
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
